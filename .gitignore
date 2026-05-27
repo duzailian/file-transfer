@@ -3,3 +3,6 @@
 .DS_Store
 **.js
 transfer
+*.test
+*.out
+.codegraph/

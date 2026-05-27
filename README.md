@@ -30,6 +30,20 @@ curl -sL https://git.io/file-transfer | bash -s beta
 
 Beta 即为实时构建版本，不一定能正常运行，仅建议用作测试。
 
+### local build
+
+在项目根目录执行以下命令，可以从当前源码生成 `./transfer`：
+
+```shell
+go build -o transfer .
+```
+
+生成后可直接运行：
+
+```shell
+./transfer --help
+```
+
 ## support
 
 文件上传范例
